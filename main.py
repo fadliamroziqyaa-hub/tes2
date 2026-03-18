@@ -3,7 +3,7 @@ from render_sdk import Workflows
 app = Workflows()
 
 @app.task(
-  plan="starter" 
+  plan="pro_ultra" 
 )
 def calculate_square(a: int) -> int:
   return a * a
